@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.profile-card {
+    background: #fff;
+    width: 500px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+}
+
+.profile-card h2 {
+    margin: 10px 0;
+    color: #33830e;
+}
+
+.changing-text {
+    font-size: 16px;
+    color: #0b0a0a;
+    font-weight: bold;
+    min-height: 13px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.social-icons {
+    margin-top: 50px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #4CAF50;
+    margin: 0 10px;
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #053e08;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+    font-style: italic;
+    field-sizing: 10px;
+}
